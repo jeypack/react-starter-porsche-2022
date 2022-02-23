@@ -1,0 +1,60 @@
+Showstopper bei mcdosporthilfe.ch. Man kann bei Strato wohl keine beliebigen Mailserver per php ansprechen. Die Ports sind nur für smtp.strato.de freigeschalten.
+
+https://www.strato.de/faq/mail/e-mail-versand-aus-cgi-und-php-skripten/
+
+Wir benötigen daher SMTP-Zugangsdaten für kommunikation@sporthilfe.ch. Kannst Du hierzu bitte ein Mailkonto einrichten und mir die SMTP-Zugangsdaten schicken?
+
+Zugangsdaten für die Mail-Adresse:
+
+user: kommunikation@mcdosporthilfe.ch
+pswd: #CwJjmNPh3V_?_QD
+
+pop3.strato.de 995
+imap.strato.de 993
+smtp.strato.de 465
+
+Zentrale E-Mail-Adresse:
+
+kommunikation@sporthilfe.ch
+
+https://mcdosporthilfe.ch/
+
++++++++++++++++++++
++++ FLOODLIGHTS +++
++++++++++++++++++++
+
+"<!--
+Start of global snippet: Please do not remove
+Place this snippet between the <head> and </head> tags on every page of your site.
+-->
+<!-- Global site tag (gtag.js) - Google Marketing Platform -->
+<script async src=""https://www.googletagmanager.com/gtag/js?id=DC-4349699""></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'DC-4349699');
+</script>
+<!-- End of global snippet: Please do not remove -->"
+
+"<!--
+Event snippet for CH_PD_OMG_GlobalSiteTag_CHMicropage_Startseite03/20_Kontaktformular on https://porsche-service.ch/direct-form/index.php?form=tequipment&language=de: Please do not remove.
+Place this snippet on pages with events you’re tracking.
+Creation date: 03/11/2020
+-->
+<script>
+  gtag('event', 'conversion', {
+    'allow_custom_scripts': true,
+    'u10': currentLanguage,
+    'u14': '[Model]',
+    'u15': '[Dealer name]',
+    'u17': '[Page URL]',
+    'u35': '[Type]',
+    'send_to': 'DC-4349699/ch_pd001/ch_pd0+standard'
+  });
+</script>
+<noscript>
+<img src=""https://ad.doubleclick.net/ddm/activity/src=4349699;type=ch_pd001;cat=ch_pd0;u14=[Model];u15=[Dealer name];u17=[Page URL];u35=[Type];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1?"" width=""1"" height=""1"" alt=""""/>
+</noscript>
+<!-- End of event snippet: Please do not remove -->"

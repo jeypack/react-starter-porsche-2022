@@ -1,0 +1,77 @@
+@import '../scss/variables';
+
+.header {
+  background-color: $color-blue;
+  padding: 50px 0 $container-gutters 0;
+  .language-box {
+    position: absolute;
+    width: 25px;
+    z-index: 100;
+  }
+  img.logo {
+    max-width: 120px;
+  }
+  // .language {
+  //   color: $color-white;
+  //   font-size: $font-size-h4;
+  //   font-weight: bold;
+  //   text-align: center;
+  //   padding: 12px;
+  //   &.selected {
+  //     color: $color-green-dark;
+  //   }
+  // }
+  // .separator {
+  //   color: $color-white;
+  //   font-size: $font-size-h2;
+  //   font-weight: bold;
+  //   padding-bottom: 6px;
+  // }
+  &.reduced {
+    position: fixed;
+    top: 0;
+    height: 0px;
+    transition: height 0.3s ease;
+    overflow: hidden;
+    padding: $container-gutters-sm 0;
+    background-color: $color-dark;
+    z-index: 1000;
+    .btn {
+      min-width: 50px;
+    }
+    img.logo {
+      //min-width: 10px;
+      height: 32px;
+      vertical-align: middle;
+    }
+  }
+}
+
+body.reduced.anim-in main .header.reduced {
+  height: 50px;
+}
+
+body.reduced main {
+  padding-top: 150px;
+}
+
+@media (min-width: $screen-xs-min) {
+  .header {
+    background-size: 200%;
+  }
+}
+@media (min-width: $screen-sm-min) {
+  .header {
+    background-size: 150%;
+  }
+}
+@media (min-width: $screen-md-min) {
+  .header {
+    background-size: 120%;
+  }
+}
+@media (min-width: $screen-lg-min) {
+  .header {
+    background-size: 100%;
+  }
+}

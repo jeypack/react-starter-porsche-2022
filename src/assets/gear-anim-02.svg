@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style>
+        <![CDATA[
+        @keyframes keysOutside {
+            0% {
+                transform: translate(400px, 400px) rotate(0deg);
+                animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+            }
+            100% {
+                transform: translate(400px, 400px) rotate(360deg);
+            }
+        }
+        #outside {
+            animation: keysOutside 6000ms linear infinite alternate-reverse forwards;
+        }
+        @keyframes keysInside {
+            0% {
+                transform: translate(400px, 400px) rotate(0deg);
+                animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+            }
+            100% {
+                transform: translate(400px, 400px) rotate(-360deg);
+            }
+        }
+        #inside {
+            animation: keysInside 6000ms linear infinite normal forwards;
+        }
+        @keyframes keysInside2 {
+            0% {
+                transform: translate(400px, 400px) rotate(0deg);
+                animation-timing-function: linear;
+            }
+            100% {
+                transform: translate(400px, 400px) rotate(360deg);
+            }
+        }
+        #inside-2 {
+            animation: keysInside2 2000ms linear infinite reverse forwards;
+        }
+        @keyframes keysInside3 {
+            0% {
+                transform: translate(400px, 400px) rotate(0deg);
+                animation-timing-function: linear;
+            }
+            100% {
+                transform: translate(400px, 400px) rotate(-360deg);
+            }
+        }
+        #inside-3 {
+            animation: keysInside2 8000ms linear infinite normal forwards;
+        }
+        ]]>
+    </style>
+    <g id="outside" transform="translate(400,400) rotate(0)">
+        <g transform="translate(-400,-400)" opacity="0.75">
+            <path d="M565,114.21A329.9,329.9,0,0,1,685.79,235l60.62-35A400.15,400.15,0,0,0,600,53.59Z" style="fill:#8288a0" />
+            <path d="M235,114.21A329.8,329.8,0,0,1,400,70V0A400,400,0,0,0,200,53.59Z" style="fill:#8288a0" />
+            <path d="M70,400a329.8,329.8,0,0,1,44.21-165L53.59,200A400,400,0,0,0,0,400Z" style="fill:#8288a0" />
+            <path d="M235,685.79A329.9,329.9,0,0,1,114.21,565L53.59,600A400.15,400.15,0,0,0,200,746.41Z" style="fill:#8288a0" />
+            <path d="M565,685.79A329.8,329.8,0,0,1,400,730v70a400,400,0,0,0,200-53.59Z" style="fill:#8288a0" />
+            <path d="M730,400a329.8,329.8,0,0,1-44.21,165l60.62,35A400,400,0,0,0,800,400Z" style="fill:#8288a0" />
+        </g>
+    </g>
+    <g id="inside" transform="translate(400,400) rotate(0)">
+        <g transform="translate(-400,-400)" opacity="0.75">
+            <path d="M635.78,263.88A272.39,272.39,0,0,1,672.25,400H730a329.8,329.8,0,0,0-44.21-165Z" style="fill:#cbd1e1" />
+            <path d="M400,127.75a272.53,272.53,0,0,1,136.13,36.47l28.87-50A329.92,329.92,0,0,0,400,70Z" style="fill:#cbd1e1" />
+            <path d="M164.22,263.88a272.34,272.34,0,0,1,99.66-99.66l-28.88-50A329.87,329.87,0,0,0,114.21,235Z" style="fill:#cbd1e1" />
+            <path d="M164.22,536.13A272.53,272.53,0,0,1,127.75,400H70a329.8,329.8,0,0,0,44.21,165Z" style="fill:#cbd1e1" />
+            <path d="M400,672.25a272.39,272.39,0,0,1-136.12-36.47l-28.88,50A329.92,329.92,0,0,0,400,730Z" style="fill:#cbd1e1" />
+            <path d="M635.78,536.13a272.43,272.43,0,0,1-99.65,99.65l28.87,50A329.87,329.87,0,0,0,685.79,565Z" style="fill:#cbd1e1" />
+        </g>
+    </g>
+    <g id="inside-2" transform="translate(400,400) rotate(0)">
+        <g transform="translate(-400,-400)" opacity="0.9">
+            <path d="M635.56,264A272.3,272.3,0,0,0,400,128c-149.21,0-272,122.79-272,272S250.79,672,400,672,672,549.21,672,400h-7c0,145.37-119.63,265-265,265S135,545.37,135,400,254.63,135,400,135A265.29,265.29,0,0,1,629.5,267.5Z" style="fill:#fff" />
+        </g>
+    </g>
+    <g id="inside-3" transform="translate(400,400) rotate(0)">
+        <g transform="translate(-400,-400)" opacity="0.125">
+            <path d="M400,135c-145.37,0-265,119.63-265,265S254.63,665,400,665V550c-82.29,0-150-67.71-150-150s67.71-150,150-150,150,67.71,150,150a150,150,0,0,1-20.1,75l99.6,57.5A265.09,265.09,0,0,0,665,400C665,254.63,545.37,135,400,135Z" style="fill:#cbd1e1" />
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,152 @@
+{
+  "en": {
+    "id": 0,
+    "name": "EN",
+    "short": "en-CH",
+    "steps": [
+      {
+        "comp": "LoginForm",
+        "form": {
+          "name": "login", "type": "password", "label": "LOGIN", "placeholder": "ENTER KEY"
+        },
+        "formErrors": [
+          { "name": "login", "value": "Login information not correct - please try again..." }
+        ],
+        "cta": {
+          "label": "OK"
+        }
+      },
+      {
+        "comp": "UploadForm",
+        "header": {
+          "title": "WELCOME", "copy": "Enter your surname and first name, your email address and the McDonald's restaurant that supports you and select your image files. Then click on Upload."
+        },
+        "upload": {
+          "title": "My images:", "copy": "Please remember that your picture must have a minimum size of 1280 x 720px.", "label": "Add images"
+        },
+        "help": {
+          "title": "Help", "copy": "I can't do it alone and would rather send an email."
+        },
+        "formName": {
+          "name": "name", "type": "text", "label": "Name", "placeholder": "NAME", "value": ""
+        },
+        "formVorname": {
+          "name": "vorname", "type": "text", "label": "Vorname", "placeholder": "VORNAME", "value": ""
+        },
+        "formEmail": {
+          "name": "email", "type": "text", "label": "E-Mail", "placeholder": "E-MAIL", "value": ""
+        },
+        "formRestaurant": {
+          "name": "restaurant", "type": "select", "value": "", "defaultOption": { "label": "McDonalds Office …", "value": "default" }
+        },
+        "formHelp": {
+          "name": "message", "type": "textarea", "placeholder": "Your message", "value": ""
+        },
+        "formUpload": {
+          "name": "upload", "type": "replace", "acceptedFileTypes": ["image/png", "image/jpg", "image/jpeg"], "minWidth": 1280, "minHeight": 780, "multiple": true, "maxSize": "30mb", "multipleMaxSize": "300mb", "multipleMaxCount": 150, "multipleMaxCountTo": 10
+        },
+        "formErrors": [
+          { "name": "message", "value": "Bitte gib deine Kontaktdaten an, wähle deine Filiale und schreibe eine Nachricht." },
+          { "name": "upload", "value": "Wähle deine Filiale und beachte File Formate wie jpg oder png, Mindestgrösse von 1280 x 720px." }
+        ]
+      },
+      {
+        "comp": "Section",
+        "title": "Nachricht wurde übermittelt! Danke.",
+        "copy1": "War doch gar nicht so schwer.",
+        "copy2": "",
+        "cta": {}
+      },
+      {
+        "comp": "Section",
+        "title": "Upload erfolgreich! Danke.",
+        "copy1": "Die notwendigen Anforderungen wurden erfüllt.",
+        "copy2": "",
+        "cta": {}
+      },
+      {
+        "comp": "Section",
+        "title": "Sorry. Upload failed!",
+        "copy1": "Please go back and try again.",
+        "copy2": "",
+        "cta": {}
+      }
+    ]
+  },
+  "de": {
+    "id": 1,
+    "name": "DE",
+    "short": "de-CH",
+    "steps": [
+      {
+        "comp": "LoginForm",
+        "form": {
+          "name": "login", "type": "password", "label": "EINLOGGEN", "placeholder": "KEY EINGEBEN"
+        },
+        "formErrors": [
+          { "name": "login", "value": "Anmeldeinformationen nicht korrekt - bitte versuchen Sie es erneut ..." }
+        ],
+        "cta": {
+          "label": "OK"
+        }
+      },
+      {
+        "comp": "UploadForm",
+        "header": {
+          "title": "WILLKOMMEN", "copy": "Gib deinen Namen und Vornamen, deine Email-Adresse sowie das McDonald’s Restaurant, welches dich unterstützt ein und wähle deine Bild Dateien aus. Klicke danach auf Upload."
+        },
+        "upload": {
+          "title": "Meine Bilder", "copy": "Bitte denk daran, dass dein Bild eine Mindestgrösse braucht. File Formate wie jpg oder png, Mindestgrösse von 1280 x 720px.", "label": "Bild hinzufügen"
+        },
+        "help": {
+          "title": "Hilfe", "copy": "Ich kann das nicht alleine und möchte lieber eine E-Mail schicken."
+        },
+        "formName": {
+          "name": "name", "type": "text", "label": "Name", "placeholder": "NAME", "value": ""
+        },
+        "formVorname": {
+          "name": "vorname", "type": "text", "label": "Vorname", "placeholder": "VORNAME", "value": ""
+        },
+        "formEmail": {
+          "name": "email", "type": "text", "label": "E-Mail", "placeholder": "E-MAIL", "value": ""
+        },
+        "formRestaurant": {
+          "name": "restaurant", "type": "select", "value": "", "defaultOption": { "label": "McDonalds Filiale …", "value": "default" }
+        },
+        "formHelp": {
+          "name": "message", "type": "textarea", "placeholder": "Ihre Nachricht", "value": ""
+        },
+        "formUpload": {
+          "name": "upload", "type": "add", "acceptedFileTypes": ["image/png", "image/jpg", "image/jpeg"], "minWidth": 1280, "minHeight": 780, "multiple": true, "maxSize": "30mb", "multipleMaxSize": "300mb", "multipleMaxCount": 150, "multipleMaxCountTo": 10
+        },
+        "formErrors": [
+          { "name": "message", "value": "Bitte gib deine Kontaktdaten an, wähle deine Filiale und schreibe eine Nachricht." },
+          { "name": "upload", "value": "Wähle deine Filiale und beachte File Formate wie jpg oder png, Mindestgrösse von 1280 x 720px." }
+        ]
+      },
+      {
+        "comp": "Section",
+        "title": "Nachricht wurde übermittelt! Danke.",
+        "copy1": "War doch gar nicht so schwer.",
+        "copy2": "",
+        "cta": {}
+      },
+      {
+        "comp": "Section",
+        "title": "Upload erfolgreich! Danke.",
+        "copy1": "Die notwendigen Anforderungen wurden erfüllt.",
+        "copy2": "",
+        "cta": {}
+      },
+      {
+        "comp": "Section",
+        "title": "Sorry. Upload failed!",
+        "copy1": "Please go back and try again.",
+        "copy2": "",
+        "cta": {
+          "label": "Zurück", "goto": "UPLOAD"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+@import '../scss/variables';
+
+article {
+  position: relative;
+  background-color: $color-blue;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100px 0 100px 0;
+  &.size-50 {
+    background-size: 50%;
+  }
+  &.size-100 {
+    background-size: 100%;
+  }
+  &.left-top {
+    background-position: left top;
+  }
+  &.right-top {
+    background-position: right top;
+  }
+  &.left-center {
+    background-position: left center;
+  }
+  &.right-center {
+    background-position: right center;
+  }
+  &.left-bottom {
+    background-position: left bottom;
+  }
+  &.right-bottom {
+    background-position: right bottom;
+  }
+
+  .scroll-target {
+    position: relative;
+  }
+
+  .image-1 {
+    background-image: url(../assets/csm_thema_buehne.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+    height: 150px;
+  }
+
+  .image-2 {
+    background-image: url(../assets/EWS-NEW-BERLIN-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+    height: 150px;
+  }
+}
+
+section {
+  padding: ($container-gutters * 2) 0;
+  .row-auto {
+    position: relative;
+  }
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.25);
+  nav {
+    >div {
+      padding: 0 0 $container-gutters 0;
+    }
+
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  section {
+    padding: ($container-gutters * 3) 0;
+  }
+}
+@media (min-width: $screen-md-min) {
+  section {
+    padding: ($container-gutters * 4) 0;
+  }
+}

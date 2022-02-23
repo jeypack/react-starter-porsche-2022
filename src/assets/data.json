@@ -1,0 +1,30 @@
+{
+  "main_nav": [
+    { "id": "main_nav_0", "href": "", "selected": true },
+    { "id": "main_nav_1", "href": "", "selected": false },
+    { "id": "main_nav_2", "href": "", "selected": false }
+  ],
+  "start": {
+    "section_1": {
+      "headline": { "id": "start_section_1_headline" },
+      "paragraph": { "id": "start_section_1_paragraph" }
+    }
+  },
+  "portfolio": {
+    "section_1": {
+      "headline": { "id": "portfolio_section_1_headline" },
+      "paragraph": { "id": "portfolio_section_1_paragraph" },
+      "list": [
+        { "id": "portfolio_section_1_list_1", "href": "https://de.wikipedia.org/wiki/Architektur" },
+        { "id": "portfolio_section_1_list_2", "href": "https://de.wikipedia.org/wiki/Frank_Gehry" }
+      ],
+      "paragraph_small_1": { "id": "portfolio_section_1_paragraph_small_1" },
+      "image_1": { "id": "frank_gehry_1", "alt": "frank-gehry", "title": "frank-gehry" },
+      "paragraph_small_2": { "id": "portfolio_section_1_paragraph_small_2" }
+    }
+  },
+  "preload": [
+    { "id": "frank_gehry_0", "src": "../assets/frank-gehry-02.jpg" },
+    { "id": "frank_gehry_1", "src": "../assets/frank-gehry-03.jpg" }
+  ]
+}

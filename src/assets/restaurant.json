@@ -1,0 +1,872 @@
+[
+ {
+   "client": "McDonald's",
+   "place": "BS Badischer Bahnhof",
+   "label": "McDonald's BS Badischer Bahnhof"
+ },
+ {
+   "client": "McDonald's",
+   "place": "BS Marktplatz",
+   "label": "McDonald's BS Marktplatz"
+ },
+ {
+   "client": "McDonald's",
+   "place": "BS Barfüsserplatz",
+   "label": "McDonald's BS Barfüsserplatz"
+ },
+ {
+   "client": "McDonald's",
+   "place": "BS Greifengasse",
+   "label": "McDonald's BS Greifengasse"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Olten",
+   "label": "McDonald's Olten"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Egerkingen",
+   "label": "McDonald's Egerkingen"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Zuchwil ",
+   "label": "McDonald's Zuchwil "
+ },
+ {
+   "client": "McDonald's",
+   "place": "Langnau",
+   "label": "McDonald's Langnau"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Burgdorf",
+   "label": "McDonald's Burgdorf"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Langnau",
+   "label": "McDonald's Langnau"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Heimberg ",
+   "label": "McDonald's Heimberg "
+ },
+ {
+   "client": "McDonald's",
+   "place": "Siège Crissier",
+   "label": "McDonald's Siège Crissier"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Renens ",
+   "label": "McDonald's Renens "
+ },
+ {
+   "client": "McDonald's",
+   "place": "Etoy",
+   "label": "McDonald's Etoy"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Morges",
+   "label": "McDonald's Morges"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Crissier Centre Comm.",
+   "label": "McDonald's Crissier Centre Comm."
+ },
+ {
+   "client": "McDonald's",
+   "place": "Dierikon",
+   "label": "McDonald's Dierikon"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Ebikon",
+   "label": "McDonald's Ebikon"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Thurau",
+   "label": "McDonald's Thurau"
+ },
+ {
+   "client": "McDonald's",
+   "place": "SG St-Leonhard-Strasse",
+   "label": "McDonald's SG St-Leonhard-Strasse"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Gossau",
+   "label": "McDonald's Gossau"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Chablais Est",
+   "label": "McDonald's Chablais Est"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Rennaz",
+   "label": "McDonald's Rennaz"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Montreux",
+   "label": "McDonald's Montreux"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Chablais Ouest",
+   "label": "McDonald's Chablais Ouest"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Vevey",
+   "label": "McDonald's Vevey"
+ },
+ {
+   "client": "McDonald's",
+   "place": "BS Centralbahnstrasse",
+   "label": "McDonald's BS Centralbahnstrasse"
+ },
+ {
+   "client": "McDonald's",
+   "place": "GE Les Cygnes",
+   "label": "McDonald's GE Les Cygnes"
+ },
+ {
+   "client": "McDonald's",
+   "place": "GE Mont-Blanc",
+   "label": "McDonald's GE Mont-Blanc"
+ },
+ {
+   "client": "McDonald's",
+   "place": "GE Malbuisson",
+   "label": "McDonald's GE Malbuisson"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Baden-Dättwil",
+   "label": "McDonald's Baden-Dättwil"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Shoppi Tivoli",
+   "label": "McDonald's Shoppi Tivoli"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bremgarten",
+   "label": "McDonald's Bremgarten"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Delémont",
+   "label": "McDonald's Delémont"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Emmen",
+   "label": "McDonald's Emmen"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Kriens",
+   "label": "McDonald's Kriens"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Baden",
+   "label": "McDonald's Baden"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Schafisheim",
+   "label": "McDonald's Schafisheim"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Kölliken",
+   "label": "McDonald's Kölliken"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Aarau",
+   "label": "McDonald's Aarau"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Spreitenbach",
+   "label": "McDonald's Spreitenbach"
+ },
+ {
+   "client": "McDonald's",
+   "place": "ZH Langstrasse ",
+   "label": "McDonald's ZH Langstrasse "
+ },
+ {
+   "client": "McDonald's",
+   "place": "ZH Oerlikon",
+   "label": "McDonald's ZH Oerlikon"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Lyss",
+   "label": "McDonald's Lyss"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Solothurn",
+   "label": "McDonald's Solothurn"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Grenchen",
+   "label": "McDonald's Grenchen"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Lully",
+   "label": "McDonald's Lully"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Fribourg",
+   "label": "McDonald's Fribourg"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Yverdon Drive",
+   "label": "McDonald's Yverdon Drive"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Yverdon Centre Comm.",
+   "label": "McDonald's Yverdon Centre Comm."
+ },
+ {
+   "client": "McDonald's",
+   "place": "Payerne",
+   "label": "McDonald's Payerne"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Köniz",
+   "label": "McDonald's Köniz"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bern Westside",
+   "label": "McDonald's Bern Westside"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Murten",
+   "label": "McDonald's Murten"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Marin",
+   "label": "McDonald's Marin"
+ },
+ {
+   "client": "McDonald's",
+   "place": "NE Gare",
+   "label": "McDonald's NE Gare"
+ },
+ {
+   "client": "McDonald's",
+   "place": "NE Rue de l'Hôpital",
+   "label": "McDonald's NE Rue de l'Hôpital"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Kaiseraugst",
+   "label": "McDonald's Kaiseraugst"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Münchenstein",
+   "label": "McDonald's Münchenstein"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Sissach",
+   "label": "McDonald's Sissach"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Füllinsdorf",
+   "label": "McDonald's Füllinsdorf"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Pratteln",
+   "label": "McDonald's Pratteln"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Laufen",
+   "label": "McDonald's Laufen"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Glarus",
+   "label": "McDonald's Glarus"
+ },
+ {
+   "client": "McDonald's",
+   "place": "LU Hertensteinstrasse",
+   "label": "McDonald's LU Hertensteinstrasse"
+ },
+ {
+   "client": "McDonald's",
+   "place": "LU Pilatusstrasse",
+   "label": "McDonald's LU Pilatusstrasse"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Sihlbrugg",
+   "label": "McDonald's Sihlbrugg"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Baar",
+   "label": "McDonald's Baar"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Affoltern My Stop",
+   "label": "McDonald's Affoltern My Stop"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Wädenswil",
+   "label": "McDonald's Wädenswil"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Affoltern",
+   "label": "McDonald's Affoltern"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Spiezwiler ",
+   "label": "McDonald's Spiezwiler "
+ },
+ {
+   "client": "McDonald's",
+   "place": "Interlaken",
+   "label": "McDonald's Interlaken"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Thun",
+   "label": "McDonald's Thun"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Weinfelden",
+   "label": "McDonald's Weinfelden"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Frauenfeld",
+   "label": "McDonald's Frauenfeld"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Weinfelden",
+   "label": "McDonald's Weinfelden"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Arbon",
+   "label": "McDonald's Arbon"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Kreuzlingen",
+   "label": "McDonald's Kreuzlingen"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Schönbühl",
+   "label": "McDonald's Schönbühl"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bern Neuengasse",
+   "label": "McDonald's Bern Neuengasse"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bern Wankdorf",
+   "label": "McDonald's Bern Wankdorf"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bern Zytglogge",
+   "label": "McDonald's Bern Zytglogge"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Zollikofen",
+   "label": "McDonald's Zollikofen"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bern Postparc",
+   "label": "McDonald's Bern Postparc"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Lugano Pazzallo",
+   "label": "McDonald's Lugano Pazzallo"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Magliaso",
+   "label": "McDonald's Magliaso"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Mendrisio",
+   "label": "McDonald's Mendrisio"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Morbio",
+   "label": "McDonald's Morbio"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Lugano Albertolli",
+   "label": "McDonald's Lugano Albertolli"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Winterthur Grüzefeld",
+   "label": "McDonald's Winterthur Grüzefeld"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Winterthur Zürcherstrasse",
+   "label": "McDonald's Winterthur Zürcherstrasse"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Winterthur Untertor",
+   "label": "McDonald's Winterthur Untertor"
+ },
+ {
+   "client": "McDonald's",
+   "place": "La Chx-de-Fds Gare",
+   "label": "McDonald's La Chx-de-Fds Gare"
+ },
+ {
+   "client": "McDonald's",
+   "place": "La Chx-de-Fds Drive",
+   "label": "McDonald's La Chx-de-Fds Drive"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bellinzona",
+   "label": "McDonald's Bellinzona"
+ },
+ {
+   "client": "McDonald's",
+   "place": "ZH Bahnhof Enge",
+   "label": "McDonald's ZH Bahnhof Enge"
+ },
+ {
+   "client": "McDonald's",
+   "place": "ZH Badenerstrasse",
+   "label": "McDonald's ZH Badenerstrasse"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Schlieren",
+   "label": "McDonald's Schlieren"
+ },
+ {
+   "client": "McDonald's",
+   "place": "ZH Löwenstrasse",
+   "label": "McDonald's ZH Löwenstrasse"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Allschwil",
+   "label": "McDonald's Allschwil"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Therwil",
+   "label": "McDonald's Therwil"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Regensdorf",
+   "label": "McDonald's Regensdorf"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Dielsdorf",
+   "label": "McDonald's Dielsdorf"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Visp",
+   "label": "McDonald's Visp"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Zermatt",
+   "label": "McDonald's Zermatt"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Sierre",
+   "label": "McDonald's Sierre"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Brig",
+   "label": "McDonald's Brig"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Lausanne Chauderon",
+   "label": "McDonald's Lausanne Chauderon"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Lausanne Rue de Bourg",
+   "label": "McDonald's Lausanne Rue de Bourg"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Lausanne Flon",
+   "label": "McDonald's Lausanne Flon"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Rapperswil",
+   "label": "McDonald's Rapperswil"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Seewen",
+   "label": "McDonald's Seewen"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Volketswil ",
+   "label": "McDonald's Volketswil "
+ },
+ {
+   "client": "McDonald's",
+   "place": "Uster ",
+   "label": "McDonald's Uster "
+ },
+ {
+   "client": "McDonald's",
+   "place": "Hinwil",
+   "label": "McDonald's Hinwil"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Collombey",
+   "label": "McDonald's Collombey"
+ },
+ {
+   "client": "McDonald's",
+   "place": "GE Collonge-Bellerive",
+   "label": "McDonald's GE Collonge-Bellerive"
+ },
+ {
+   "client": "McDonald's",
+   "place": "GE La Praille",
+   "label": "McDonald's GE La Praille"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Meyrin",
+   "label": "McDonald's Meyrin"
+ },
+ {
+   "client": "McDonald's",
+   "place": "GE Etoile",
+   "label": "McDonald's GE Etoile"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Schaffhausen",
+   "label": "McDonald's Schaffhausen"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Dietlikon",
+   "label": "McDonald's Dietlikon"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Glattzentrum ",
+   "label": "McDonald's Glattzentrum "
+ },
+ {
+   "client": "McDonald's",
+   "place": "Rümlang",
+   "label": "McDonald's Rümlang"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bülach",
+   "label": "McDonald's Bülach"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bulle",
+   "label": "McDonald's Bulle"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Chur City",
+   "label": "McDonald's Chur City"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Chur Drive",
+   "label": "McDonald's Chur Drive"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Buchs",
+   "label": "McDonald's Buchs"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Mels",
+   "label": "McDonald's Mels"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Suhr",
+   "label": "McDonald's Suhr"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bienne Nidaugasse",
+   "label": "McDonald's Bienne Nidaugasse"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bienne Gare ",
+   "label": "McDonald's Bienne Gare "
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bienne Drive",
+   "label": "McDonald's Bienne Drive"
+ },
+ {
+   "client": "McDonald's",
+   "place": "La Tour-de-Trême",
+   "label": "McDonald's La Tour-de-Trême"
+ },
+ {
+   "client": "McDonald's",
+   "place": "LS St-Laurent",
+   "label": "McDonald's LS St-Laurent"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Martigny",
+   "label": "McDonald's Martigny"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Sion",
+   "label": "McDonald's Sion"
+ },
+ {
+   "client": "McDonald's",
+   "place": "SG Bildstrasse ",
+   "label": "McDonald's SG Bildstrasse "
+ },
+ {
+   "client": "McDonald's",
+   "place": "St. Margrethen",
+   "label": "McDonald's St. Margrethen"
+ },
+ {
+   "client": "McDonald's",
+   "place": "SG Markt am Bohl",
+   "label": "McDonald's SG Markt am Bohl"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Nyon Centre",
+   "label": "McDonald's Nyon Centre"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Nyon Drive ",
+   "label": "McDonald's Nyon Drive "
+ },
+ {
+   "client": "McDonald's",
+   "place": "Granges-Paccot",
+   "label": "McDonald's Granges-Paccot"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Avry-sur-Matran",
+   "label": "McDonald's Avry-sur-Matran"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Locarno",
+   "label": "McDonald's Locarno"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Sant'Antonino",
+   "label": "McDonald's Sant'Antonino"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Hendschiken",
+   "label": "McDonald's Hendschiken"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Lenzburg",
+   "label": "McDonald's Lenzburg"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Reinach",
+   "label": "McDonald's Reinach"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Lenzburg",
+   "label": "McDonald's Lenzburg"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Oftringen",
+   "label": "McDonald's Oftringen"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Langenthal",
+   "label": "McDonald's Langenthal"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Sursee",
+   "label": "McDonald's Sursee"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Bern Hauptbahnhof",
+   "label": "McDonald's Bern Hauptbahnhof"
+ },
+ {
+   "client": "McDonald's",
+   "place": "BS Stücki",
+   "label": "McDonald's BS Stücki"
+ },
+ {
+   "client": "McDonald's",
+   "place": "GE Balexert Auto Centre",
+   "label": "McDonald's GE Balexert Auto Centre"
+ },
+ {
+   "client": "McDonald's",
+   "place": "GE Aéroport",
+   "label": "McDonald's GE Aéroport"
+ },
+ {
+   "client": "McDonald's",
+   "place": "GE Le Lignon",
+   "label": "McDonald's GE Le Lignon"
+ },
+ {
+   "client": "McDonald's",
+   "place": "GE Balexert Centre Comm.",
+   "label": "McDonald's GE Balexert Centre Comm."
+ },
+ {
+   "client": "McDonald's",
+   "place": "GE Cours de Rive",
+   "label": "McDonald's GE Cours de Rive"
+ },
+ {
+   "client": "McDonald's",
+   "place": "GE Plainpalais",
+   "label": "McDonald's GE Plainpalais"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Wil ",
+   "label": "McDonald's Wil "
+ },
+ {
+   "client": "McDonald's",
+   "place": "Wollerau-Fuchsberg",
+   "label": "McDonald's Wollerau-Fuchsberg"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Cheseaux",
+   "label": "McDonald's Cheseaux"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Crissier Drive",
+   "label": "McDonald's Crissier Drive"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Lausanne Deux Gares",
+   "label": "McDonald's Lausanne Deux Gares"
+ },
+ {
+   "client": "McDonald's",
+   "place": "Conthey",
+   "label": "McDonald's Conthey"
+ },
+ {
+   "client": "McDonald's",
+   "place": "ZH Stadelhofen",
+   "label": "McDonald's ZH Stadelhofen"
+ },
+ {
+   "client": "McDonald's",
+   "place": "ZH Letzipark",
+   "label": "McDonald's ZH Letzipark"
+ },
+ {
+   "client": "McDonald's",
+   "place": "ZH Flughafen",
+   "label": "McDonald's ZH Flughafen"
+ },
+ {
+   "client": "McDonald's",
+   "place": "ZH Bahnhofplatz",
+   "label": "McDonald's ZH Bahnhofplatz"
+ },
+ {
+   "client": "",
+   "place": "",
+   "label": ""
+ }
+]

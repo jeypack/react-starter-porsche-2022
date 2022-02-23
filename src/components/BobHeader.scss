@@ -1,0 +1,49 @@
+@import '../scss/variables';
+
+.bob-header {
+  background-image: url(../assets/sketch-01.svg);
+  background-size: 250%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: $container-gutters 0;
+  img.logo {
+    min-width: 40px;
+  }
+  // .language {
+  //   color: $color-white;
+  //   font-size: $font-size-h4;
+  //   font-weight: bold;
+  //   text-align: center;
+  //   padding: 12px;
+  //   &.selected {
+  //     color: $color-green-dark;
+  //   }
+  // }
+  // .separator {
+  //   color: $color-white;
+  //   font-size: $font-size-h2;
+  //   font-weight: bold;
+  //   padding-bottom: 6px;
+  // }
+}
+
+@media (min-width: $screen-xs-min) {
+  .bob-header {
+    background-size: 200%;
+  }
+}
+@media (min-width: $screen-sm-min) {
+  .bob-header {
+    background-size: 150%;
+  }
+}
+@media (min-width: $screen-md-min) {
+  .bob-header {
+    background-size: 120%;
+  }
+}
+@media (min-width: $screen-lg-min) {
+  .bob-header {
+    background-size: 100%;
+  }
+}

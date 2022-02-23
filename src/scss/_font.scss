@@ -1,0 +1,58 @@
+//@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+// Poiret One
+// @font-face {
+//     font-family: 'SpeedeeCd';
+//     src: url('../assets/fonts/SpeedeeCd_A_Rg.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'SpeedeeCd';
+//     src: url('../assets/fonts/SpeedeeCd_A_Bd.ttf') format('truetype');
+//     font-weight: bold;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'Speedee';
+//     src: url('../assets/fonts/Speedee_A_Rg.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'Speedee';
+//     src: url('../assets/fonts/Speedee_A_Bd.ttf') format('truetype');
+//     font-weight: bold;
+//     font-style: normal;
+// }
+@font-face {
+  font-family: 'PorscheNextW';
+  src: url('../assets/fonts/PorscheNextWLa-Thin.eot');
+  src: url('../assets/fonts/PorscheNextWLa-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/PorscheNextWLa-Thin.woff2') format('woff2'),
+    url('../assets/fonts/PorscheNextWLa-Thin.woff') format('woff'),
+    url('../assets/fonts/PorscheNextWLa-Thin.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PorscheNextW';
+  src: url('../assets/fonts/PorscheNextWLa-Regular.eot');
+  src: url('../assets/fonts/PorscheNextWLa-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/PorscheNextWLa-Regular.woff2') format('woff2'),
+    url('../assets/fonts/PorscheNextWLa-Regular.woff') format('woff'),
+    url('../assets/fonts/PorscheNextWLa-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PorscheNextW';
+  src: url('../assets/fonts/PorscheNextWLa-Bold.eot');
+  src: url('../assets/fonts/PorscheNextWLa-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/PorscheNextWLa-Bold.woff2') format('woff2'),
+    url('../assets/fonts/PorscheNextWLa-Bold.woff') format('woff'),
+    url('../assets/fonts/PorscheNextWLa-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

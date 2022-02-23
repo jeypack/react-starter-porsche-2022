@@ -1,0 +1,11 @@
+@import '../scss/variables';
+
+.language {
+  position: relative;
+  &.active,
+  &.selected {
+    font-weight: bold;
+  }
+}
+
+//@media (min-width: $screen-sm-min) {}

@@ -1,0 +1,145 @@
+// 1.A Colors
+$color-green: #264f36 !default;
+$color-red: #f20026 !default;
+$color-blue: #1abfff !default;
+$color-yellow: #F9FF06 !default;
+$color-orange : #EF9D18 !default;
+//$color-orange : #e48d01 !default;
+
+$color-primary: #fff !default;
+
+$color-alt: #222 !default;
+
+$color-link: $color-primary !default;
+
+$color-dark: #000 !default;
+$color-white: #fff !default;
+$color-grey: #DBDBDB !default;
+$color-light: rgba(255, 255, 255, 0.85) !default;
+
+
+//$color-white-light : rgba(255,255,255,0.9) !default;
+$color-black : #000;
+
+//Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e8f4ff+0,cdd5ff+100
+
+
+//Blue gradient $color-primary to $color-blue
+//background: rgb(60, 43, 128);
+//background: linear-gradient(90deg, rgba(60, 43, 128, 1) 0%, rgba(92, 65, 201, 1) 100%);
+
+//Green gradient $color-green to $color-green-mid
+//background: rgb(0,230,56);
+//background: linear-gradient(90deg, rgba(0, 230, 56, 1) 0%, rgba(51, 241, 97, 1) 100%);
+
+//Grey gradient $color-grey to $color-light
+//background: rgb(219,219,219);
+//background: linear-gradient(90deg, rgba(219, 219, 219, 1) 0%, rgba(232, 232, 232, 1) 100%);
+
+// 1.B Screen sizes
+$screen-xs-min: 480px !default;
+$screen-sm-min: 768px !default;
+$screen-md-min: 992px !default;
+$screen-lg-min: 1200px !default;
+
+$container-max-width: 1170px;
+
+// 1.C Grid
+$container-gutters: 12px;
+$container-gutters-sm: 6px;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max : ($screen-sm-min - 1) !default;
+$screen-sm-max : ($screen-md-min - 1) !default;
+$screen-md-max : ($screen-lg-min - 1) !default;
+// 320px 360px 375px 411px 414px
+$screen-iphone5: 320px !default;
+$screen-s5: 360px !default;
+$screen-iphone678: 375px !default;
+$screen-pixel2: 411px !default;
+$screen-iphone678plus: 414px !default;
+
+// size definitions
+$font-size-base : 16px;
+// $font-size-h1 : calc(36px + 0.8vw);
+// $font-size-h2 : calc(24px + 0.8vw);
+// $font-size-h3 : calc(18px + 0.8vw);
+$font-size-h1 : 64px;
+$font-size-h2 : 48px;
+$font-size-h3 : 38px;
+$font-size-h4 : 28px;
+$font-size-h5 : 21px;
+$font-size-h6 : 18px;
+$font-size-p : 16px;
+$font-size-a : 15px;
+$font-size-small : 12px;
+$font-size-footer : 9px;
+$font-size-btn : 12px;
+$font-size-input : 12px;
+$font-size-desc : 11px;
+
+$font-size-mobile-h1 : 58px;
+$font-size-mobile-h2 : 42px;
+$font-size-mobile-h3 : 32px;
+$font-size-mobile-h4 : 24px;
+
+$font-size-dynamic-std: calc(10px + 2vmin);
+
+// vw	Relative to 1% of the width of the viewport*
+// vh	Relative to 1% of the height of the viewport*
+// vmin	Relative to 1% of viewport's* smaller dimension
+// vmax	Relative to 1% of viewport's* larger dimension
+
+$line-height-default : 1.3;
+$line-height-default-small-device : 1.2;
+$line-height-wide : 1.6;
+$line-height-wide-small-device : 1.4;
+
+$form-padding: 16px 12px;
+
+// font
+// Poppins -> Light: 300 | Regular: 400 | Medium: 500 | Semibold: 600 | Bold: 700
+$font-family: 'PorscheNextW',
+Helvetica,
+Arial,
+sans-serif !default;
+$font-family-headlines: 'PorscheNextW',
+Helvetica,
+Arial,
+sans-serif !default;
+/* $font-family : system-ui,
+-apple-system,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+"Liberation Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji";
+$font-family-headlines : "Poiret One",
+-apple-system,
+BlinkMacSystemFont,
+'Segoe UI',
+'Roboto',
+'Oxygen',
+'Ubuntu',
+'Cantarell',
+'Fira Sans',
+'Droid Sans',
+'Helvetica Neue',
+sans-serif; */
+$font-weight-default : normal !default;
+
+// animations
+$page-transition-duration : 0.6s !default;
+$page-timing-function : ease !default;
+
+//$background-image: url(./assets/background.jpg);
+$form-control-radius: 5px;
+$form-control-transition: box-shadow .4s,
+border-color .2s;
+$form-control-focus-box-shadow: 0 0 12px $color-white;

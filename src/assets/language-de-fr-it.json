@@ -1,0 +1,221 @@
+{
+  "de": {
+    "id": 0,
+    "name": "DE",
+    "short": "de-CH",
+    "steps": [
+      {
+        "comp": "LoginForm",
+        "form": {
+          "name": "login", "type": "password", "label": "Hier einloggen", "placeholder": "Passwort eingeben"
+        },
+        "formErrors": [
+          { "name": "login", "value": "Passwort ist nicht korrekt. Bitte nochmals versuchen." },
+          { "name": "server", "value": "Dienst nicht verfügbar. Bitte nochmals versuchen." }
+        ],
+        "cta": {
+          "label": "OK"
+        }
+      },
+      {
+        "comp": "UploadForm",
+        "header": {
+          "title": "WILLKOMMEN", "copy": "Gib deinen Namen und Vornamen, deine Email-Adresse sowie das McDonald’s Restaurant, welches dich unterstützt ein und wähle deine Bild Dateien aus. Klicke danach auf Upload."
+        },
+        "upload": {
+          "title": "Meine Bilder", "copy": "Bitte denk daran, dass dein Bild eine Mindestgrösse braucht. File Formate wie jpg oder png, Mindestgrösse von 6500 x 4500px.", "label": "Bilder hinzufügen|(max. 10 Bilder)"
+        },
+        "help": {
+          "title": "Hilfe", "copy": "Ich kann das nicht alleine und möchte lieber eine E-Mail schicken."
+        },
+        "formName": {
+          "name": "name", "type": "text", "label": "Name", "placeholder": "NAME", "value": ""
+        },
+        "formVorname": {
+          "name": "vorname", "type": "text", "label": "Vorname", "placeholder": "VORNAME", "value": ""
+        },
+        "formEmail": {
+          "name": "email", "type": "text", "label": "E-Mail", "placeholder": "E-MAIL", "value": ""
+        },
+        "formRestaurant": {
+          "name": "restaurant", "type": "select", "value": "default", "defaultOption": { "label": "Auswahl Restaurant", "value": "default" }
+        },
+        "formHelp": {
+          "name": "message", "type": "textarea", "placeholder": "Deine Nachricht", "value": "", "submit": "E-Mail absenden"
+        },
+        "formUpload": {
+          "name": "upload", "type": "add", "acceptedFileTypes": ["image/png", "image/jpg", "image/jpeg"], "minWidth": 1280, "minHeight": 780, "multiple": true, "maxSize": "30mb", "multipleMaxSize": "300mb", "multipleMaxCount": 150, "multipleMaxCountTo": 10, "submit": "Bilder hochladen"
+        },
+        "formErrors": [
+          { "name": "message", "value": "Bitte gib deine Kontaktdaten an, wähle dein Restaurant und schreibe eine Nachricht." },
+          { "name": "upload", "value": "Wähle dein Restaurant und beachte File Formate wie jpg oder png, Mindestgrösse von 6500 x 4500px." },
+          { "name": "failed-upload", "value": "Upload leider nicht erfolgreich. Bitte nochmals versuchen." },
+          { "name": "failed-message", "value": "Nachricht konnte leider nicht übermittelt werden. Bitte nochmals versuchen." },
+          { "name": "drop-image", "value": "Das Bild erfüllt nicht die notwendigen Anforderungen. File Formate wie jpg oder png, Mindestgrösse von 6500 x 4500px." },
+          { "name": "drop-wrong", "value": "Nicht unterstütztes Dateiformat im Upload." },
+          { "name": "server", "value": "Dienst nicht verfügbar. Bitte nochmals versuchen." }
+        ]
+      },
+      {
+        "comp": "Section",
+        "title": "Nachricht wurde übermittelt! Danke.",
+        "copy1": "Wir melden uns bei dir.",
+        "copy2": "",
+        "cta": {}
+      },
+      {
+        "comp": "Section",
+        "title": "Upload erfolgreich. Lieben Dank.",
+        "copy1": "Wir überprüfen die Bilder.",
+        "copy2": "",
+        "cta": {}
+      }
+    ]
+  },
+  "fr": {
+    "id": 1,
+    "name": "FR",
+    "short": "fr-CH",
+    "steps": [
+      {
+        "comp": "LoginForm",
+        "form": {
+          "name": "login", "type": "password", "label": "Se connecter ici", "placeholder": "Saisir le mot de passe"
+        },
+        "formErrors": [
+          { "name": "login", "value": "Mot de passe non valable. Merci de réessayer." },
+          { "name": "server", "value": "Le service n’est pas disponible. Merci de réessayer." }
+        ],
+        "cta": {
+          "label": "OK"
+        }
+      },
+      {
+        "comp": "UploadForm",
+        "header": {
+          "title": "BIENVENUE", "copy": "Saisis ton nom et ton prénom, ton adresse e-mail, le restaurant McDonald’s qui te soutient et sélectionne tes fichiers image. Clique ensuite sur Upload."
+        },
+        "upload": {
+          "title": "MES IMAGES", "copy": "Ton image doit avoir une taille minimale. Formats de fichier: jpg ou png; taille minimale: 6500 x 4500px.", "label": "Ajouter des images|(max. 10 images)"
+        },
+        "help": {
+          "title": "AIDE", "copy": "Je n’y arrive pas et je préfère envoyer un e-mail."
+        },
+        "formName": {
+          "name": "name", "type": "text", "label": "NOM", "placeholder": "NOM", "value": ""
+        },
+        "formVorname": {
+          "name": "vorname", "type": "text", "label": "PRÉNOM", "placeholder": "PRÉNOM", "value": ""
+        },
+        "formEmail": {
+          "name": "email", "type": "text", "label": "E-mail", "placeholder": "E-MAIL", "value": ""
+        },
+        "formRestaurant": {
+          "name": "restaurant", "type": "select", "value": "default", "defaultOption": { "label": "Sélection du restaurant", "value": "default" }
+        },
+        "formHelp": {
+          "name": "message", "type": "textarea", "placeholder": "Ton message", "value": "", "submit": "Envoyer l’e-mail"
+        },
+        "formUpload": {
+          "name": "upload", "type": "add", "acceptedFileTypes": ["image/png", "image/jpg", "image/jpeg"], "minWidth": 1280, "minHeight": 780, "multiple": true, "maxSize": "30mb", "multipleMaxSize": "300mb", "multipleMaxCount": 150, "multipleMaxCountTo": 10, "submit": "Télécharger des images"
+        },
+        "formErrors": [
+          { "name": "message", "value": "Indique tes coordonnées, choisis ton restaurant et écris un message." },
+          { "name": "upload", "value": "Choisis ton restaurant et fais attention au format - jpg ou png - et à la taille minimale des fichiers, 6500 x 4500px." },
+          { "name": "failed-upload", "value": "Le téléchargement a échoué. Merci de réessayer. " },
+          { "name": "failed-message", "value": "Le message n’a pas pu être envoyé. Merci de réessayer." },
+          { "name": "drop-image", "value": "L’image ne répond pas aux exigences requises.Formats de fichier: jpg ou png; taille minimale: 6500 x 4500px." },
+          { "name": "drop-wrong", "value": "Format de fichier non pris en charge lors du téléchargement." },
+          { "name": "server", "value": "Le service n’est pas disponible. Merci de réessayer." }
+        ]
+      },
+      {
+        "comp": "Section",
+        "title": "Ton message a été transmis! Merci.",
+        "copy1": "Nous te contacterons sous peu.",
+        "copy2": "",
+        "cta": {}
+      },
+      {
+        "comp": "Section",
+        "title": "Téléchargement réussi. Merci beaucoup.",
+        "copy1": "Nous vérifions tes images.",
+        "copy2": "",
+        "cta": {}
+      }
+    ]
+  },
+    "it": {
+    "id": 2,
+    "name": "IT",
+    "short": "it-CH",
+    "steps": [
+      {
+        "comp": "LoginForm",
+        "form": {
+          "name": "login", "type": "password", "label": "Effettua il login qui", "placeholder": "Inserisci la password"
+        },
+        "formErrors": [
+          { "name": "login", "value": "La password non è corretta. Prova di nuovo." },
+          { "name": "server", "value": "Servizio non disponibile. Prova di nuovo." }
+        ],
+        "cta": {
+          "label": "OK"
+        }
+      },
+      {
+        "comp": "UploadForm",
+        "header": {
+          "title": "TI DIAMO IL BENVENUTO", "copy": "Inserisci il tuo cognome e nome, l’indirizzo e-mail e il ristorante McDonald’s che ti sostiene e scegli i tuoi file foto. Poi clicca su Upload."
+        },
+        "upload": {
+          "title": "LE MIE FOTO", "copy": "Ricordati che la tua foto deve avere delle dimensioni minime. Formati di file: jpg oppure png; dimensioni minime: 6500 × 4500 pixel.", "label": "Aggiungi foto|(max. 10 foto)"
+        },
+        "help": {
+          "title": "AIUTO", "copy": "Non sono capace da solo/a e preferisco inviare un’e-mail."
+        },
+        "formName": {
+          "name": "name", "type": "text", "label": "COGNOME", "placeholder": "COGNOME", "value": ""
+        },
+        "formVorname": {
+          "name": "vorname", "type": "text", "label": "NOME", "placeholder": "NOME", "value": ""
+        },
+        "formEmail": {
+          "name": "email", "type": "text", "label": "E-Mail", "placeholder": "E-MAIL", "value": ""
+        },
+        "formRestaurant": {
+          "name": "restaurant", "type": "select", "value": "default", "defaultOption": { "label": "Scegli ristorante", "value": "default" }
+        },
+        "formHelp": {
+          "name": "message", "type": "textarea", "placeholder": "Il tuo messaggio", "value": "", "submit": "Inviare e-mail"
+        },
+        "formUpload": {
+          "name": "upload", "type": "add", "acceptedFileTypes": ["image/png", "image/jpg", "image/jpeg"], "minWidth": 1280, "minHeight": 780, "multiple": true, "maxSize": "30mb", "multipleMaxSize": "300mb", "multipleMaxCount": 150, "multipleMaxCountTo": 10, "submit": "Carica foto"
+        },
+        "formErrors": [
+          { "name": "message", "value": "Inserisci i tuoi dati di contatto, scegli il tuo ristorante e scrivi un messaggio." },
+          { "name": "upload", "value": "Scegli il tuo ristorante e fai attenzione ai formati di file - jpg o png - e dimensioni minime: 6500 × 4500 pixel." },
+          { "name": "failed-upload", "value": "Non è stato possibile eseguire l’upload. Prova di nuovo." },
+          { "name": "failed-message", "value": "Purtroppo non è stato possibile trasmettere il messaggio. Prova di nuovo." },
+          { "name": "drop-image", "value": "La foto non soddisfa i requisiti necessari. Formati di file: jpg oppure png; dimensioni minime: 6500 × 4500 pixel." },
+          { "name": "drop-wrong", "value": "Formato di file non supportato durante il caricamento." },
+          { "name": "server", "value": "Servizio non disponibile. Prova di nuovo." }
+        ]
+      },
+      {
+        "comp": "Section",
+        "title": "Il messaggio è stato trasmesso! Grazie.",
+        "copy1": "Ti contatteremo.",
+        "copy2": "",
+        "cta": {}
+      },
+      {
+        "comp": "Section",
+        "title": "Upload eseguito correttamente. Grazie mille.",
+        "copy1": "Verificheremo le tue foto.",
+        "copy2": "",
+        "cta": {}
+      }
+    ]
+  }
+}

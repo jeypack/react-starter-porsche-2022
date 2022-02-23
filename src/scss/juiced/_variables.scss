@@ -1,0 +1,24 @@
+/* 1.A Colors  */
+$color-primary: #212121 !default;
+
+$color-alt: #39598c !default;
+
+$color-link: $color-alt  !default;
+
+$color-dark: #333 !default;
+$color-light: #aaa !default;
+$color-white: #fff !default;
+
+$color-green: #3A4C02 !default;
+$color-red: #D10000 !default;
+$color-blue: #4d7cc2 !default;
+$color-yellow: #ffbc0d !default;
+
+
+/* 1.B Screen sizes */
+$screen-xs-min: 480px !default;
+$screen-sm-min: 768px !default;
+$screen-md-min: 992px !default;
+$screen-lg-min: 1200px !default;
+
+$container-max-width: 1170px !default;
