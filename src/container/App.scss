@@ -7,50 +7,57 @@ article {
   background-repeat: no-repeat;
   background-position: center center;
   padding: 100px 0 100px 0;
-  &.size-50 {
+  &.bkg-size-50 {
     background-size: 50%;
   }
-  &.size-100 {
+  &.bkg-size-100 {
     background-size: 100%;
   }
-  &.left-top {
+  &.bkg-left-top {
     background-position: left top;
   }
-  &.right-top {
+  &.bkg-right-top {
     background-position: right top;
   }
-  &.left-center {
+  &.bkg-left-center {
     background-position: left center;
   }
-  &.right-center {
+  &.bkg-right-center {
     background-position: right center;
   }
-  &.left-bottom {
+  &.bkg-left-bottom {
     background-position: left bottom;
   }
-  &.right-bottom {
+  &.bkg-right-bottom {
     background-position: right bottom;
   }
 
-  .scroll-target {
+  &.quer {
+    padding: 13.25% 0 100px 0;
+  }
+
+  .scroll-target,.car {
     position: relative;
   }
 
-  .image-1 {
-    background-image: url(../assets/csm_thema_buehne.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 0px;
-    height: 150px;
+  .car {
+    margin-top: -18%;
   }
+  .passion-day-headline {
+    font-size: calc(0.6 * #{$font-size-headline-passion-day});
+    //font-size: $font-size-headline-passion-day;
+    font-weight: bold;
+    font-style: italic;
+    color: $color-white;
+  }
+  // .image-1 {
+  //   background-image: url(../assets/csm_thema_buehne.jpg);
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  //   background-position: 50% 0px;
+  //   height: 150px;
+  // }
 
-  .image-2 {
-    background-image: url(../assets/EWS-NEW-BERLIN-6.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 0px;
-    height: 150px;
-  }
 }
 
 section {
@@ -70,13 +77,38 @@ footer {
   }
 }
 
+@media (min-width: $screen-xs-min) {
+  article {
+    .passion-day-headline {
+      font-size: calc(0.7 * #{$font-size-headline-passion-day});
+    }
+  }
+}
 @media (min-width: $screen-sm-min) {
+  article {
+    .passion-day-headline {
+      font-size: calc(0.8 * #{$font-size-headline-passion-day});
+    }
+  }
   section {
     padding: ($container-gutters * 3) 0;
   }
 }
 @media (min-width: $screen-md-min) {
+  article {
+    .passion-day-headline {
+      font-size: calc(0.9 * #{$font-size-headline-passion-day});
+    }
+  }
   section {
     padding: ($container-gutters * 4) 0;
+  }
+}
+@media (min-width: $screen-lg-min) {
+  article {
+    .passion-day-headline {
+      //font-size: calc(#{$font-size-headline-passion-day} * width / 100);
+      font-size: $font-size-headline-passion-day;
+    }
   }
 }

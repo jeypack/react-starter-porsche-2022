@@ -4,6 +4,7 @@ import ews_new_berlin_6 from '../assets/EWS-NEW-BERLIN-6.jpg';
 import porsche_logo from '../assets/porsche-marque-negative.png';
 import porsche_car from '../assets/car.png';
 import porsche_map from '../assets/map.png';
+import porsche_911 from '../assets/porsche-911.png';
 
 /* src require returns object with 'default' holding the path
 const images = [
@@ -29,9 +30,13 @@ const Images = {
     id: "ews_new_berlin_6",
     src: ews_new_berlin_6
   },
-  "porsche_carp": {
+  "porsche_car": {
     id: "porsche_car",
     src: porsche_car
+  },
+  "porsche_911": {
+    id: "porsche_911",
+    src: porsche_911
   }
 };
 

@@ -1,10 +1,11 @@
 // App .egp-app
 import React, { Component } from 'react';
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+//import { gsap } from "gsap";
+//import { ScrollTrigger } from "gsap/ScrollTrigger";
 //import EgpStepFactory from './EgpStepFactory';
 import StickyHeader from '../components/StickyHeader';
 import SectionBackground from '../components/SectionBackground';
+import EgpSlider from '../components/EgpSlider';
 //import SectionBlockStd from '../components/SectionBlockStd';
 //import EgpStepID from '../constants/EgpStepID';
 import LanguageService from '../services/LanguageService';
@@ -34,7 +35,7 @@ class App extends Component {
       //currentStep
     };
 
-    gsap.registerPlugin(ScrollTrigger);
+    //gsap.registerPlugin(ScrollTrigger);
 
     console.log("Porsche Passion Day 2022", "v1.0.0", "14.02.2022", "✅");
     console.log("langService", this.langService);
@@ -76,19 +77,52 @@ class App extends Component {
       <>
         <StickyHeader language={currrentLanguage} data={structureData.main_nav} langList={langList} onChangeLanguage={this.handleChangeLanguage}></StickyHeader>
 
-        <article id="quer" className="">
+        <section id="start" className="background-color-blue">
+          <div className="container justify-center gutters">
+            <div className="col-auto text-center">
+              <h3 className="">PASSION DAY</h3>
+              <h4 className="">09.04.2022</h4>
+            </div>
+          </div>
+        </section>
+
+        <article id="quer" className="quer">
           <section className="diagonal">
             <div className="col-quer"></div>
-            <div className="col-quer-content container gutters">
+            <div className="col-quer-content container">
               <div className="col-12">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                <img className="car img-responsive" src={Images['porsche_car'].src} alt=""></img>
+                <div className="container gutters">
+                  <div className="col-12">
+                    <div className="passion-day-headline">PASSION DAY 2022</div>
+                  </div>
+                  <div className="col-12 col-sm-8 col-md-7 col-lg-6">
+                    <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                    <div className="btn btn-flex-center background-color-white color-dark"><span className="icon arrow-right-grey"></span>Jetzt anmelden</div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </section>
         </article>
 
-        <article id="portfolio" className="position-relative size-50 left-center">
+        <article id="slider" className="position-relative">
+          <section className="">
+            <div className="container justify-center items-center">
+              <div className="col-9">
+                <EgpSlider></EgpSlider>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <article id="portfolio" className="position-relative bkg-size-50 left-center">
           <SectionBackground backgroundImage={Images['ews_new_berlin_6'].src}></SectionBackground>
+        </article>
+
+        <article id="" className="position-relative bkg-size-50 bkg-left-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
         </article>
 
         <footer>

@@ -109,7 +109,7 @@ class StickyHeader extends Component {
                     classObjNavBtn['selected'] = item.selected;
                     classObjNavBtn['btn-sm'] = false;
                     classObjNavBtn['btn-xs'] = true;
-                    console.log("item:", item);
+                    //console.log("item:", item);
 
                     return <div key={index} className={Utility.classSet(obj)}>
                       <div className={Utility.classSet(classObjNavBtn)} onClick={this.handleClickNav.bind(this, item, index)}>{this.langService.getString(item.id)}</div>

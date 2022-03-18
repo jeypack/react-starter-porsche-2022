@@ -6,6 +6,7 @@
   .language-box {
     position: absolute;
     width: 25px;
+    right: 0;
     z-index: 100;
   }
   img.logo {
@@ -34,7 +35,8 @@
     transition: height 0.3s ease;
     overflow: hidden;
     padding: $container-gutters-sm 0;
-    background-color: $color-dark;
+    //background-color: $color-dark;
+    border-bottom: 1px solid $color-white;
     z-index: 1000;
     .btn {
       min-width: 50px;

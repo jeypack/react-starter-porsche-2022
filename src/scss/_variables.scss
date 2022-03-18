@@ -15,7 +15,7 @@ $color-link: $color-primary !default;
 $color-dark: #000 !default;
 $color-white: #fff !default;
 $color-grey: #DBDBDB !default;
-$color-light: rgba(255, 255, 255, 0.85) !default;
+$color-light: $color-white !default;
 
 
 //$color-white-light : rgba(255,255,255,0.9) !default;
@@ -64,6 +64,7 @@ $font-size-base : 16px;
 // $font-size-h1 : calc(36px + 0.8vw);
 // $font-size-h2 : calc(24px + 0.8vw);
 // $font-size-h3 : calc(18px + 0.8vw);
+$font-size-headline-passion-day : 116px;
 $font-size-h1 : 64px;
 $font-size-h2 : 48px;
 $font-size-h3 : 38px;
@@ -74,11 +75,11 @@ $font-size-p : 16px;
 $font-size-a : 15px;
 $font-size-small : 12px;
 $font-size-footer : 9px;
-$font-size-btn : 12px;
+$font-size-btn : 14px;
 $font-size-input : 12px;
 $font-size-desc : 11px;
 
-$font-size-mobile-h1 : 58px;
+$font-size-mobile-h1 : 56px;
 $font-size-mobile-h2 : 42px;
 $font-size-mobile-h3 : 32px;
 $font-size-mobile-h4 : 24px;

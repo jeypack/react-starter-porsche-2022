@@ -114,7 +114,7 @@ p {
 
 @include juiced-rows;
 
-@media (max-width: $screen-xs-min) {
+@media (max-width: $screen-sm-min) {
   body,
   h1,
   h2,
@@ -127,7 +127,7 @@ p {
   }
 
   h1 {
-    font-size: $font-size-mobile-h1;
+    //font-size: $font-size-mobile-h1;
     line-height: 0.9;
   }
 
@@ -142,6 +142,10 @@ p {
   h4 {
     font-size: $font-size-mobile-h4;
   }
+}
+
+:focus-visible {
+  outline: 0;
 }
 
 //@import './scss/upload';
