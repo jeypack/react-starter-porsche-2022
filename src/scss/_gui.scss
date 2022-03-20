@@ -197,6 +197,9 @@
   background-repeat: no-repeat;
   background-size: contain;
 
+  &.arrow-right-white {
+    background-image: url(../assets/slider-right-white.svg);
+  }
   &.arrow-right-grey {
     background-image: url(../assets/slider-right-grey.svg);
   }

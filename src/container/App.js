@@ -80,8 +80,8 @@ class App extends Component {
         <section id="start" className="background-color-blue">
           <div className="container justify-center gutters">
             <div className="col-auto text-center">
-              <h3 className="">PASSION DAY</h3>
-              <h4 className="">09.04.2022</h4>
+              <h3 className="">{ this.langService.getString("start_h3") }</h3>
+              <h4 className="">{ this.langService.getString("start_h4") }</h4>
             </div>
           </div>
         </section>
@@ -109,9 +109,9 @@ class App extends Component {
 
         <article id="slider" className="position-relative">
           <section className="">
-            <div className="container justify-center items-center">
+            <div className="container justify-center items-center full-width">
               <div className="col-9">
-                <EgpSlider></EgpSlider>
+                <EgpSlider data={structureData.slider}></EgpSlider>
               </div>
             </div>
           </section>

@@ -4,13 +4,7 @@
     { "id": "main_nav_1", "href": "", "selected": false },
     { "id": "main_nav_2", "href": "", "selected": false }
   ],
-  "start": {
-    "section_1": {
-      "headline": { "id": "start_section_1_headline" },
-      "paragraph": { "id": "start_section_1_paragraph" }
-    }
-  },
-  "portfolio": {
+  "quer": {
     "section_1": {
       "headline": { "id": "portfolio_section_1_headline" },
       "paragraph": { "id": "portfolio_section_1_paragraph" },
@@ -23,6 +17,11 @@
       "paragraph_small_2": { "id": "portfolio_section_1_paragraph_small_2" }
     }
   },
+  "slider": [
+    { "id": "porsche_911", "alt": "Porsche 911", "title": "Porsche 911", "h3": "main_slider_0_h3", "p": "main_slider_0_p" },
+    { "id": "porsche_911", "alt": "Porsche 911", "title": "Porsche 911", "h3": "main_slider_0_h3", "p": "main_slider_0_p" },
+    { "id": "porsche_911", "alt": "Porsche 911", "title": "Porsche 911", "h3": "main_slider_0_h3", "p": "main_slider_0_p" }
+  ],
   "preload": [
     { "id": "frank_gehry_0", "src": "../assets/frank-gehry-02.jpg" },
     { "id": "frank_gehry_1", "src": "../assets/frank-gehry-03.jpg" }
