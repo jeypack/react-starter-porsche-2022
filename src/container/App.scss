@@ -32,8 +32,24 @@ article {
     background-position: right bottom;
   }
 
-  &.quer {
+  &.hero-quer {
     padding: 13.25% 0 100px 0;
+    .diagonal {
+      padding: 0px 0 20px 0;
+    }
+  }
+  &.bottom-quer {
+    padding: 20.0% 0 100px 0;
+    .diagonal {
+      padding: 60px 0 20px 0;
+    }
+    .col-quer-content {
+      padding: 0px 0 120px 0;
+    }
+  }
+
+  &.under-quer {
+    margin-top: -200px;
   }
 
   .scroll-target,.car {

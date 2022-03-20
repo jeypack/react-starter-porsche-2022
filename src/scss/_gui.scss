@@ -10,10 +10,9 @@
 
 .diagonal {
   position: relative;
-  padding: 0px 0 20px 0;
 }
 .col-quer {
-  background-color: $color-red;
+  //background-color: $color-red;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -27,7 +26,6 @@
 }
 .col-quer-content {
   position: relative;
-  padding: 0px 0 0px 0;
 }
 
 .small {

@@ -86,9 +86,9 @@ class App extends Component {
           </div>
         </section>
 
-        <article id="quer" className="quer">
+        <article id="" className="hero-quer">
           <section className="diagonal">
-            <div className="col-quer"></div>
+            <div className="col-quer background-color-red"></div>
             <div className="col-quer-content container">
               <div className="col-12">
                 <img className="car img-responsive" src={Images['porsche_car'].src} alt=""></img>
@@ -121,7 +121,28 @@ class App extends Component {
           <SectionBackground backgroundImage={Images['ews_new_berlin_6'].src}></SectionBackground>
         </article>
 
-        <article id="" className="position-relative bkg-size-50 bkg-left-center">
+        <article className="bottom-quer">
+          <section className="diagonal">
+            <div className="col-quer background-color-dark"></div>
+            <div className="col-quer-content container">
+              <div className="col-12">
+
+                <div className="container gutters">
+                  <div className="col-12">
+                    <div className="passion-day-headline">PASSION DAY 2022</div>
+                  </div>
+                  <div className="col-12 col-sm-8 col-md-7 col-lg-6">
+                    <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                    <div className="btn btn-flex-center background-color-white color-dark"><span className="icon arrow-right-grey"></span>Jetzt anmelden</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <article id="" className="under-quer bkg-size-50 bkg-left-center background-color-dark">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
         </article>
 
